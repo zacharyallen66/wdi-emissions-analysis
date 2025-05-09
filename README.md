@@ -50,19 +50,40 @@ A machine learning analysis exploring how historical economic indicators can be 
 
 ## 🌍 Example: Country-Level Divergence
 
-| Country | Trend vs Model | Interpretation |
-|---------|----------------|----------------|
-| 🇳🇴 Norway | Actual emissions **below** predicted | Suggests strong policy impact |
-| 🇨🇦 Canada | Actual emissions **above** predicted | Suggests weaker mitigation efforts |
+We used model prediction errors to assess how actual emissions deviate from expected levels, given a country's economic profile. This offers a way to infer *real-world policy impact* — highlighting nations that may be over- or under-performing in environmental regulation.
 
-These deviations hint at the effectiveness (or lack) of national policies — especially in countries at a similar development tier.
+| Country | Trend vs Model               | Interpretation                    |
+|---------|------------------------------|------------------------------------|
+| 🇳🇴 Norway | Actual emissions **below** predicted | Suggests strong climate policy effectiveness |
+| 🇨🇦 Canada | Actual emissions **above** predicted | Indicates room for stronger mitigation efforts |
+
+These deviations serve as a proxy to assess national environmental performance — especially between countries at a similar level of development.
+
+---
+
+### 📊 Visual Analysis
+
+
 ![image](https://github.com/user-attachments/assets/8beb55f6-c513-4b34-938c-7270f4fc172e)
 
 ![image](https://github.com/user-attachments/assets/72907ba7-1b1f-45ff-a73b-e8bb5406cfe5)
 
 ![image](https://github.com/user-attachments/assets/ef72c019-7083-488f-94f1-990cc4cc6f07)
 
----
+**What the visuals show:**
+
+- **Top Row (Scatter Plots):**  
+  Predicted vs actual emissions for CO₂, Methane, and Nitrous Oxide across all countries. Points above the red diagonal line represent countries emitting more than expected.
+
+- **Middle (Choropleth Map):**  
+  A global map highlighting model residuals — blue indicates lower-than-predicted emissions; red indicates higher-than-predicted emissions.
+
+- **Bottom Row (Line Graphs):**  
+  Yearly comparisons for **Canada** and **Norway** (2015–2019):  
+  - **Canada:** Emissions trend higher than expected — policy may be lagging.  
+  - **Norway:** Emissions trend lower than predicted — suggesting effective mitigation.
+
+> These visuals help connect statistical predictions with real-world environmental outcomes, revealing how countries diverge based on their policy choices and economic structures.
 
 ## 📎 Files Included
 
