@@ -65,18 +65,15 @@ These deviations serve as a proxy to assess national environmental performance �
 
 
 ![image](https://github.com/user-attachments/assets/8beb55f6-c513-4b34-938c-7270f4fc172e)
-
-![image](https://github.com/user-attachments/assets/72907ba7-1b1f-45ff-a73b-e8bb5406cfe5)
-
-![image](https://github.com/user-attachments/assets/ef72c019-7083-488f-94f1-990cc4cc6f07)
-
 **What the visuals show:**
-
 - **Top Row (Scatter Plots):**  
   Predicted vs actual emissions for CO₂, Methane, and Nitrous Oxide across all countries. Points above the red diagonal line represent countries emitting more than expected.
 
+![image](https://github.com/user-attachments/assets/72907ba7-1b1f-45ff-a73b-e8bb5406cfe5)
 - **Middle (Choropleth Map):**  
   A global map highlighting model residuals — blue indicates lower-than-predicted emissions; red indicates higher-than-predicted emissions.
+  
+![image](https://github.com/user-attachments/assets/ef72c019-7083-488f-94f1-990cc4cc6f07)
 
 - **Bottom Row (Line Graphs):**  
   Yearly comparisons for **Canada** and **Norway** (2015–2019):  
