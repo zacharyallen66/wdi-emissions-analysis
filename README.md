@@ -58,6 +58,10 @@ A machine learning analysis exploring how historical economic indicators can be 
 These deviations hint at the effectiveness (or lack) of national policies — especially in countries at a similar development tier.
 ![image](https://github.com/user-attachments/assets/8beb55f6-c513-4b34-938c-7270f4fc172e)
 
+![image](https://github.com/user-attachments/assets/72907ba7-1b1f-45ff-a73b-e8bb5406cfe5)
+
+![image](https://github.com/user-attachments/assets/ef72c019-7083-488f-94f1-990cc4cc6f07)
+
 ---
 
 ## 📎 Files Included
